@@ -12,22 +12,3 @@ code {
     monospace;
 }
 
-*{
-  margin: 0;
-  padding: 0;
-}
-
-ul{
-  display: flex;
-  justify-content: space-evenly;
-  height:15vh;
-  align-items: center;
-  font-size: 18px;
-  font-weight: bold;
-
-}
-
-li {
-  list-style: none;
-}
-

@@ -1,0 +1,17 @@
+nav{
+    background-color: black;
+}
+ul{
+    display: flex;
+    justify-content:space-between;
+    height:20vh;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+    color: orange;
+}
+

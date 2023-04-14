@@ -1,8 +1,12 @@
+import React from "react";
+import styles from './itemlistcontainer.module.css'
+
+
 const ItemListContainer = ({greeting}) => {
     return (
-    <di>
+    <div>
         <h1>{greeting}</h1>
-    </di>
+    </div>
     )
 }
 
