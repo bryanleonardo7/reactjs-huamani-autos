@@ -1,0 +1,28 @@
+.card-item{
+    background-color: orange;
+    display:inline-block;
+    color: black;
+    width: 25%;
+    margin: 5%;
+}
+
+.card-image {
+    width: 60%;
+}
+
+.text {
+    align-items: center;
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+}
+.text-button {
+    align-items: center;
+    background-color: rgba(27, 24, 17, 0.952);
+    color: white;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 0px;
+}

@@ -41,3 +41,10 @@
   padding: 0;
   margin: 0;
 }
+
+body {
+  background-image: url('../public/images/homeimagen.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
