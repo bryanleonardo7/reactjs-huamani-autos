@@ -1,23 +1,25 @@
 import React from 'react';
 import CartWidget from '../CartWidget/CartWidget';
-import styles from './navbar.module.css';
+import './navbar.css';
 
 import { NavLink, Link } from 'react-router-dom';
 
 function Navbar() {
 return (
+    <div className='nav'>
     <nav>
-        <link to= '/' className={styles.logoimage}>
-        <img src='./images/logo.png' alt='logoauto' width={200}/>
-        </link>
+        <Link to='/'>
+        <h2 className='header-title'>FREAKC</h2>
+        </Link>
     <div>
-        <NavLink to={'/category/autos'} className={({ isActive }) =>  isActive ? 'ActiveOption' : 'Option '}>Autos</NavLink>
-        <NavLink to={'/category/camioneta'} className={({ isActive }) =>  isActive ? 'ActiveOption' : 'Option '}>Camioneta</NavLink>
-        <NavLink to={'/category/motos'} className={({ isActive }) =>  isActive ? 'ActiveOption' : 'Option '}>Motos</NavLink>
+        <NavLink to={`/category/Auto`} className='nav-link'>Autos</NavLink>
+        <NavLink to={`/category/Camioneta`} className='nav-link'>Camioneta</NavLink>
+        <NavLink to={`/category/Moto`} className='nav-link'>Motos</NavLink>
     </div>
     <CartWidget/>
     </nav>
+    </div>
 );
 }
 
-export default Navbar;
+export default Navbar

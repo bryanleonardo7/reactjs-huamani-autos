@@ -1,22 +1,22 @@
-nav{
-    background-color: black;
-    display: flex;
-    Justify-content:space-between;
+.header-title {
     align-items: center;
+    color: orange;
 }
 
-ul{
-    display: flex;
+.nav{
+    background-color: black;
+    align-items: center;
     flex-wrap: wrap;
     height:20vh;
     align-items: center;
     font-size: 18px;
     font-weight: bold;
-}
-
-li {
     list-style: none;
-    margin: 40px;
     color: orange;
 }
 
+.nav-link{
+    margin: 90px;
+    color: orange;
+    text-decoration: none;
+}

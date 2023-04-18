@@ -1,8 +1,18 @@
+
+.title-header {
+    font-weight: bold;
+}
+
+
+
+
 .card-item{
-    background-color: orange;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
     display:inline-block;
-    color: black;
-    width: 25%;
+    color: white;
+    width: 30%;
+    height: 150%;
     margin: 5%;
 }
 
@@ -16,13 +26,19 @@
     font-size: larger;
     color: white;
 }
-.text-button {
+
+.item-buttom {
+        margin: 30px;
+        padding: 30px;
+}
+
+
+.text-buttom {
+    text-decoration: none;
     align-items: center;
     background-color: rgba(27, 24, 17, 0.952);
     color: white;
+    padding: 20px;
     border-radius: 3px;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    border: 0px;
+    border: 4px solid  orange;
 }

@@ -6,7 +6,6 @@ const CartWidget = () => {
     return (
     <div>
         <img src={cart} alt='cartwidget' className={styles.cart} />
-        0
     </div>
     )
 }
