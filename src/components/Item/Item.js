@@ -9,7 +9,7 @@ return (
         <header className='header'>
             <h2 className='title-header'>{name}</h2>
         </header>
-        <picture>
+        <picture >
             <img src={img} alt={name} className='card-image'/>
         </picture>
         <section className='text-info'>
@@ -17,7 +17,7 @@ return (
                 Precio: ${price}
             </p>
             <p className='text'>
-                Stock disponible: {stock}
+                Stock: {stock}
             </p>
         </section>  
 

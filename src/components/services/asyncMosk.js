@@ -1,8 +1,36 @@
 const products = [
-    {id: '1', name: 'Auto toyota', img: '/images/toyota-corolla.png', price: 10000,  category: 'Auto', stock: 5, description: 'description de toyota corolla'},
-    {id: '2', name: 'Auto mazda',img: '/images/mazda-3.png', price: 60000,  category: 'Auto', stock: 10, description: 'description de mazda-3'},
-    {id: '3', name: 'Auto bmw-3 Series',img: '/images/bmw-3-series.png', price: 80000,  category: 'Auto', stock: 5, description: 'description de bmw-3-series'},
-    {id: '4', name: 'Auto audi A4', img: '/images/audi-a4.png', price: 90000,  category: 'Auto', stock: 5, description: 'description de audi-a4'},
+    {
+        id: '1',
+        name: 'Auto toyota',
+        img: '/images/toyota-corolla.png', 
+        price: 10000,  
+        category: 'Auto', 
+        stock: 5, 
+        description: 'description de toyota corolla'},
+    {
+        id: '2', 
+        name: 'Auto mazda',
+        img: '/images/mazda-3.png', 
+        price: 60000,  
+        category: 'Auto', 
+        stock: 10, 
+        description: 'description de mazda-3'},
+    {
+        id: '3', 
+        name: 'Auto bmw-3 Series',
+        img: '/images/bmw-3-series.png', 
+        price: 80000,  
+        category: 'Auto', 
+        stock: 5, 
+        description: 'description de bmw-3-series'},
+    {
+        id: '4', 
+        name: 'Auto audi A4', 
+        img: '/images/audi-a4.png', 
+        price: 90000,  
+        category: 'Auto', 
+        stock: 5, 
+        description: 'description de audi-a4'},
 
 
     {id: '5', name: 'Camioneta Chevrolet Suv',img: '/images/chevrolet-suv.png',price: 90000,  category: 'Camioneta', stock: 5, description: 'description de chevrolet-suv'},

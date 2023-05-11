@@ -4,20 +4,19 @@
 }
 
 
-
-
 .card-item{
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 20px;
-    display:inline-block;
     color: white;
-    width: 30%;
-    height: 150%;
+    width: 300px;
+    height: 400px;
     margin: 5%;
 }
 
 .card-image {
-    width: 60%;
+    width: 250px;
+    height: 200px;
 }
 
 .text {
