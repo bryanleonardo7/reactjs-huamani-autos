@@ -1,10 +1,10 @@
 <h1 align="center">Hola 👋,Soy Bryan Leonardo Mendoza</h1>
-<h3 align="center">Estudiando para Hacer un Fronted Developer...</h3>
+<h3 align="center">Estudiando para Hacer un Frontend Developer...</h3>
 
 - Mi Primer e-commerce de React con Firebase **Mi Proyecto se llama Concesionaria**
 
--Mi Proyecto es un E-commerce de una tienda virtual que se base en comprar un Producto de un Auto, Camioneta o Moto.
--La base de datos se llama Firebase donde se almacena todo los productos la ejecución de la filtración de los productos se encuentran en los containers.
+Mi Proyecto es un E-commerce de una tienda virtual que se base en comprar un Producto de un Auto, Camioneta o Moto.
+La base de datos se llama Firebase donde se almacena todo los productos la ejecución de la filtración de los productos se encuentran en los containers.
 
 - 📫Auto de este Proyecto es : Bryan Leonardo Mendoza
 
