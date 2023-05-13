@@ -9,7 +9,7 @@ return (
     <div>
     <nav className='nav'>
         <Link to='/' className='link-h2'>
-        <h2 className='header-title'>FREAKC</h2>
+        <h2 className='header-title'>FREAKINGC</h2>
         </Link>
     <div>
         <NavLink to={`/category/Auto`} className='nav-link'>Autos</NavLink>

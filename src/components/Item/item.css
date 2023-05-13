@@ -13,12 +13,18 @@
     height: 400px;
     margin: 5%;
     border: 1px solid  hsl(39, 100%, 50%);
+    
 }
 
 .card-image {
     width: 250px;
     height: 200px;
     filter: drop-shadow(4px 1px 1px #ffaa01);
+    transition: all 500ms ease;
+}
+
+.card-image:hover {
+transform: translateY(-6%)
 }
 
 .text {

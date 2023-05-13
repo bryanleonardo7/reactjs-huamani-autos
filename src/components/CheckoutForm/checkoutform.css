@@ -3,15 +3,19 @@
     margin: 1vw auto;
     display: flex;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 20px;
+    border-radius: 10px;
+    background: url('../../../public/images/logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
 }
 
 .label-form {
     display: block;
     margin-bottom: 10px;
-    font-size: 18px;
-    color:orange;
+    font-size: 20px;
+    color: white;
     font-family: 'Courier New', Courier, monospace;
 }
 

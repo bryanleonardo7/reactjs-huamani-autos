@@ -9,6 +9,10 @@
     cursor: pointer;
 }
 
+.button-cart:hover {
+    background-color:orange ;
+    color: #000;
+}
 .h1{
     margin-bottom: 30px;
 }

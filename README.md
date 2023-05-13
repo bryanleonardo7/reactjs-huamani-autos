@@ -3,9 +3,12 @@
 
 - Mi Primer e-commerce de React con Firebase **Mi Proyecto se llama Concesionaria**
 
-- 📫Auto de este Proyecto es : **bryanleohm9@gmail.com**
+Mi Proyecto consiste en comprar una tienda virtual con la ayuda de firebase(base de datos)
+en comprar un Auto, camioneta o moto.
 
-<h3 align="left">Connect with me:</h3>
+-Auto de este Proyecto es : Bryan Leonardo Huamani Mendoza
+
+- MI email es :**bryanleohm9@gmail.com**
 <p align="left">
 </p>
 

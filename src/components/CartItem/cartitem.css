@@ -23,6 +23,11 @@
     margin-bottom: 5px;
 }
 
+.button-eliminar:hover {
+    background-color: red;
+    color: #000;
+}
+
 .img-card{
     width: 250px;
     height: 120px;
