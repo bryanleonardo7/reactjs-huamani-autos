@@ -1,5 +1,5 @@
 <h1 align="center">Hola 👋,Soy Bryan Leonardo Mendoza</h1>
-<h3 align="center">Estudiando para Hacer un Fronted Developer...</h3>
+<h3 align="center">Estudiando para Hacer un Frontend Developer...</h3>
 
 - Mi Primer e-commerce de React con Firebase **Mi Proyecto se llama Concesionaria**
 
