@@ -1,0 +1,14 @@
+.button-cart {
+    text-decoration: none;
+    background-color: rgba(27, 24, 17, 0.952);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid  orange;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.h1{
+    margin-bottom: 30px;
+}

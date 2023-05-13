@@ -6,9 +6,9 @@ import { NavLink, Link } from 'react-router-dom';
 
 function Navbar() {
 return (
-    <div className='nav'>
-    <nav>
-        <Link to='/'>
+    <div>
+    <nav className='nav'>
+        <Link to='/' className='link-h2'>
         <h2 className='header-title'>FREAKC</h2>
         </Link>
     <div>
@@ -19,6 +19,7 @@ return (
     <CartWidget/>
     </nav>
     </div>
+    
 );
 }
 

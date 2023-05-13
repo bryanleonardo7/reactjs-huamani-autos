@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import './checkoutform.css'
 
 const CheckoutForm = ({ onConfirm }) => {
 const [name, setName] = useState('')
@@ -16,34 +17,40 @@ const handleConfirm = (event) => {
 }
 
 return (
-    <div>
+    <div className='form-container'>
     <form onSubmit={handleConfirm}> 
-        <label>Nombre:
+        <label className='label-form'>Nombre:
         <input 
             placeholder='Ingrese su nombre...'
             type='text'
             value={name}
+            required=""
+            className='input-form'
             onChange={({target}) => setName(target.value)}
         />
-        </label>
-        <label>Telefono:
+        </label >
+        <label className='label-form'>Telefono:
             <input 
             placeholder='Ingrese numero telefonico...'
             type='text'
             value={phone}
+            required=""
+            className='input-form'
             onChange={({target}) => setPhone(target.value)}
         />
         </label>
-        <label>Email:
+        <label className='label-form'>Email:
         <input 
             placeholder='Ingrese su email...'
             type='email'
             value={email}
+            required=""
+            className='input-form'
             onChange={({target}) => setEmail(target.value)}
         />
         </label>
         <div className='Label'>
-        <button type='submit'>Crear Orden</button>
+        <button type='submit' className='button-orden'>Crear Orden</button>
         </div>
     </form>
     </div>

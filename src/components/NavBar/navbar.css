@@ -3,12 +3,15 @@
     color: orange;
 }
 
+.link-h2 {
+    text-decoration: none;
+}
+
 .nav{
+    display: flex;
+    justify-content: space-between;
     background-color: black;
-    align-items: center;
-    flex-wrap: wrap;
-    height:20vh;
-    align-items: center;
+    height:10vh;
     font-size: 18px;
     font-weight: bold;
     list-style: none;
@@ -16,7 +19,11 @@
 }
 
 .nav-link{
-    margin: 90px;
+    margin: 80px;
     color: orange;
     text-decoration: none;
+}
+
+.nav-link:hover {
+    color: white;
 }

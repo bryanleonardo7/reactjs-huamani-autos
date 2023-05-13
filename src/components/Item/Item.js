@@ -18,8 +18,8 @@ return (
             </p>
         </section>  
 
-    <footer className='item-buttom'>
-        <Link to={`/item/${id}`}    className='text-buttom'>Ver detalles</Link>
+    <footer className='item-button'>
+        <Link to={`/item/${id}`}    className='text-button'>Ver detalles</Link>
     </footer>
 
     </article>

@@ -1,0 +1,25 @@
+.Button {
+    color: white;
+    padding: 3px;
+    margin: 6px;
+    background-color: black;
+    border: 1px solid  orange;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 100px;
+}
+.Number {
+    margin: 10px;
+}
+.Controls {
+    display: inline-flex;
+}
+
+.Counter {
+    margin: 20px;
+    
+}
+
+.Counter-Agregar{
+    margin: 10px;
+}

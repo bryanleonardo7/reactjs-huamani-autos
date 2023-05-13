@@ -4,11 +4,16 @@
     border-radius: 20px;
     color: white;
     width:600px;
-    height: 400px;
-    margin: 6%;
-    padding: 5%;
+    height: 450px;
+    margin: 2%;
+    padding: 3%;
+    border: 2px solid  orange;
 }
-
+.title-header{
+    color: orange;
+    font-weight:bolder;
+    font-size: larger;
+}
 
 .item-image {
     width: 300px;
@@ -16,7 +21,7 @@
 }
 
 .text-info {
-    margin: 20px;
+    margin: 12px;
 }
 
 .option {

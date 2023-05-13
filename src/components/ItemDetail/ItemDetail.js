@@ -15,7 +15,7 @@ const ItemDetail = ({id,name,img,price,description,category, stock })  => {
     const handleOnAdd = (quantity) => {
         setQuantityAdded(quantity)
 
-        const item = {id,name,price}
+        const item = {id,name,price,img}
 
             addItem(item, quantity)
     }
@@ -32,10 +32,10 @@ const ItemDetail = ({id,name,img,price,description,category, stock })  => {
                 </picture>
 
             <section className='text-info'>
-                <p className='text'>{description}</p>
-                <p className='text'>{category}</p>
-                <p className='text'>{price}</p>
-                <p className='text'>Stock:{stock}</p>
+                <p className='text'>Descripcion: {description}</p>
+                <p className='text'>Categoria:  {category}</p>
+                <p className='text'>Precio: ${price}</p>
+                <p className='text'>Stock: Hay {stock} disponibles</p>
             </section>
             <footer>
                     {
