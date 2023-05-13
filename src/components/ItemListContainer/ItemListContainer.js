@@ -1,27 +1,46 @@
-import React from "react";
-import { useState, useEffect } from "react";
-import { getProducts, getProductsByCategory } from "../services/asyncMosk";
+import { getDocs } from 'firebase/firestore';
+import { useState, useEffect } from 'react';
+import { db } from '../Config/Firebase';
 import ItemList from '../ItemList/ItemList';
+import { useParams } from 'react-router-dom';
+import { query, collection, where } from 'firebase/firestore';
 import styles from './itemlistcontainer.module.css'
 
-import { useParams } from "react-router-dom";
+const ItemListContainer = ({ greeting }) => {
 
-const ItemListContainer = ({greeting}) => {
-    const [products, setProducts] = useState([])
+const [products, setProducts] = useState([]);
 
-    const { categoryId } = useParams()
+const [loading, setLoading] = useState(true);
 
-    useEffect(() => {
-        const  asyncFunc = categoryId ? getProductsByCategory : getProducts
+const { categoryId } = useParams();
 
-        asyncFunc(categoryId)
-            .then(response => {
-                setProducts(response)
-            })
-            .catch(error => {
-                console.error(error)
-            })
-    }, [categoryId])
+useEffect(() => {
+    setLoading(true);
+
+    const collectionRef = categoryId
+    ? query(collection(db, 'products'), where('category', '==', categoryId))
+    : collection(db, 'products');
+
+    getDocs(collectionRef)
+    .then((response) => {
+        const productsAdapted = response.docs.map(doc => {
+        const data = doc.data()
+        return { id: doc.id, ...data };
+    });
+        setProducts(productsAdapted);
+    })
+    .catch((error) => {
+        console.error(error);
+    })
+    .finally(() => {
+        setLoading(false);
+    });
+}, [categoryId]);
+
+if (loading) {
+    return <div>Cargando...</div>;
+}
+
 
     return (
     <div>
@@ -32,3 +51,5 @@ const ItemListContainer = ({greeting}) => {
 }
 
 export default ItemListContainer
+
+

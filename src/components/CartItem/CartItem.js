@@ -3,13 +3,12 @@ import { CartContext } from '../Context/CartContext';
 import { useContext } from 'react';
 
 
-const CartItem = ({name,id, price, quantity}) => {
-
+const CartItem = ({name,id ,price, quantity}) => {
 const { removeItem } = useContext(CartContext)
 
 return (
     <div>
-        <span>Nombre:{name}</span>
+        <span>{name}</span>
         <span>Precio:$ {price}</span>
         <span>Cantidad:{quantity}</span>
         <button onClick={() =>removeItem(id)}>Eliminar</button>

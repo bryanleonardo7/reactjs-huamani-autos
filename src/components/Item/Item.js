@@ -2,7 +2,7 @@ import './item.css'
 
 import { Link } from "react-router-dom"
 
-const Item = ({id, name,img ,price, stock}) => {
+const Item = ({id, name,img ,price}) => {
 
 return (
     <article className='card-item'>
@@ -15,9 +15,6 @@ return (
         <section className='text-info'>
             <p className='text'>
                 Precio: ${price}
-            </p>
-            <p className='text'>
-                Stock: {stock}
             </p>
         </section>  
 
